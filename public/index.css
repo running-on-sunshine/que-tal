@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar {
+    margin: 0.2em 1em 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    margin: 0.2em 0.5em 0.5em;
+}
+
+.get-wassups {
+    padding: 0.5em;
+    margin: 0 2em 1em;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.wassup-form {
+    display: flex;
+    margin: 0.2em 1.3em;
+}
+
+.wassup-form-input {
+    font-size: 1em;
+    resize: none;
+    outline: none;
+}
+
+.wassup-form-submit {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.wassup-list {
+    padding-right: 1.5em;
+    padding-left: 0.5em
+}
+
+.wassup-row {
+    background-color: rgba(240, 247, 248, 0.918);
+    width: 75%;
+    padding: 0 0.3em;
+    margin: 0 0.5em -0.8em;
+    border-radius: 0.5em;
+    list-style: none;
+}
+
+.read-more {
+    text-decoration: none;
+}
+
+.remove-wassup-button {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    outline: none;
+}
